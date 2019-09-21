@@ -1,0 +1,166 @@
+{
+  "多媒体": {
+    "label": "多媒体",
+    "icon": "fab fa-audible",
+    "sideLists": [
+      {
+        "label": "动画",
+        "icon": "fa fa-server",
+        "link": "animation"
+      },
+      {
+        "label": "歌曲",
+        "icon": "fa fa-server",
+        "link": "listtab"
+      },
+      {
+          "label": "视频",
+          "icon": "fa fa-hdd",
+          "children": [{
+             "label": "实例1",
+             "link": "videodemo",
+             "icon": "fa fa-hdd"
+           },
+           {
+            "label": "实例2",
+            "link": "link2",
+            "icon": "fa fa-hdd"
+           }
+        ]
+
+      }
+    ]
+  },
+  "vm": {
+    "label": "云服务器",
+    "icon": "fa fa-server",
+    "sideLists": [
+      {
+        "label": "云服务器",
+        "icon": "fa fa-server",
+        "link": "videodemo"
+      },
+      {
+        "label": "云物理主机",
+        "icon": "fa fa-building",
+        "link": "cps"
+      },
+      {
+        "label": "镜像",
+        "icon": "fa fa-window-restore",
+        "link": "image/image-list"
+      },
+      {
+        "label": "云硬盘",
+        "link": "ebs/ebs-list",
+        "icon": "fa fa-inbox"
+      }
+    ]
+  },
+  "inobj": {
+    "label": "对象存储",
+    "icon": "fas fa-cloud-upload-alt",
+    "sideLists": [{
+      "label": "概览",
+      "icon": "fas fa-tachometer-alt",
+      "link": "inobj/overview"
+    },
+      {
+        "label": "存储桶列表",
+        "icon": "fab fa-dropbox",
+        "link": "inobj/buckets"
+      },
+      {
+        "label": "API秘钥",
+        "icon": "fas fa-key",
+        "link": "inobj/api-key"
+      }
+    ]
+  },
+  "user": {
+    "label": "用户管理",
+    "icon": "fas fa-users",
+    "sideLists": [{
+      "label": "API秘钥管理",
+      "link": "user/apik",
+      "icon": "fa fa-key"
+    }]
+  },
+  "network": {
+    "label": "网络控制台",
+    "icon": "fab fa-jsfiddle",
+    "sideLists": [
+      {
+        "label": "概览",
+        "icon": "fa fa-tachometer-alt",
+        "link": "vpcmanager"
+      },
+      {
+        "label": "虚拟私有网络",
+        "icon": "fab fa-vimeo-square",
+        "link": "vpc"
+      },
+      {
+        "label": "子网",
+        "icon": "fab fa-joomla",
+        "link": "subnet"
+      },
+      {
+        "label": "路由表",
+        "icon": "fa fa-crosshairs",
+        "link": "routers"
+      },
+      {
+        "label": "安全组",
+        "icon": "fa fa-shield-alt",
+        "link": "app-security-groups"
+      },
+      {
+        "label": "弹性公网IP",
+        "icon": "fa fa-arrows-alt",
+        "link": "eip"
+      }
+
+    ]
+  },
+  "loadbalancer": {
+    "label": "负载均衡控制台",
+    "icon": "fa fa-sitemap",
+    "sideLists":[
+      {
+        "label": "概览",
+        "link": "slbmanager",
+        "icon": "fa fa-tachometer-alt"
+      },
+      {
+        "label": "负载均衡",
+        "icon": "fa fa-sitemap",
+        "link": "slb"
+      }
+
+    ]
+  },
+  "cluster": {
+    "label": "大数据平台服务",
+    "icon": "fa fa-desktop",
+    "sideLists": [
+      {
+        "label": "概览",
+        "icon": "fa fa-home",
+        "link": "hdinsight"
+      }
+    ]
+  },
+  "cloudaudit": {
+    "label": "云审计",
+    "icon": "fab fa-sellsy",
+    "sideLists": [
+      {
+        "label": "事件列表",
+        "icon": "fas fa-list-alt",
+        "link": "cloudAudit/list"
+      }
+    ]
+  }
+
+}

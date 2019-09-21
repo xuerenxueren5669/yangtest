@@ -7,5 +7,9 @@
   "exclude": [
     "src/test.ts",
     "**/*.spec.ts"
-  ]
+  ],
+  "include": [
+    "../src",
+    "../node_modules/yangcartoon-app/**/*.ts"
+    ]
 }
