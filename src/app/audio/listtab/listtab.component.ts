@@ -14,20 +14,20 @@ export class ListtabComponent implements OnInit {
 
   listOfSelection = [
     {
-      text    : 'Select All Row',
+      text    : 'Select All Rows',
       onSelect: () => {
         this.checkAll(true);
       }
     },
     {
-      text    : 'Select Odd Row',
+      text    : 'Select Odd Rows',
       onSelect: () => {
         this.dataSet.forEach((data, index) => data.checked = index % 2 !== 0);
         this.refreshStatus();
       }
     },
     {
-      text    : 'Select Even Row',
+      text    : 'Select Even Rows',
       onSelect: () => {
         this.dataSet.forEach((data, index) => data.checked = index % 2 === 0);
         this.refreshStatus();
